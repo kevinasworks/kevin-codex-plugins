@@ -3,5 +3,18 @@
   "interface": {
     "displayName": "Kevin's Codex Plugins"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "codex-anydoc",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-anydoc/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
 }

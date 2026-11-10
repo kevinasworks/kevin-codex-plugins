@@ -1,0 +1,33 @@
+{
+  "name": "codex-anydoc",
+  "version": "0.2.1",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "3.19.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "dsh-anydoc": "0.2.1",
+    "zod": "4.6.7"
+  },
+  "description": "Offline document-to-Markdown conversion for Codex.",
+  "license": "MIT",
+  "files": [
+    "plugin.json",
+    "mcp.json",
+    "server.mjs",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "licenses",
+    "assets"
+  ],
+  "bundleDependencies": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinasworks/codex-anydoc.git",
+    "directory": "codex"
+  },
+  "private": true
+}
